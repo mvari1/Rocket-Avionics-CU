@@ -123,18 +123,18 @@ HAL_StatusTypeDef LIS3MDL_ReadMagnetometer(LIS3MDL *dev){
  */
 HAL_StatusTypeDef LIS3MDL_ReadRegister(LIS3MDL *dev, uint8_t reg, uint8_t *data){
 
-	return HAL_I2C_Mem_Read( dev->i2cHandle, LISM3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+	return HAL_I2C_Mem_Read( dev->i2cHandle, LIS3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
 
 }
 HAL_StatusTypeDef LIS3MDL_ReadRegisters(LIS3MDL *dev, uint8_t reg, uint8_t *data, uint8_t length){
 
-	return HAL_I2C_Mem_Read( dev->i2cHandle, LISM3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, length, HAL_MAX_DELAY);
+	return HAL_I2C_Mem_Read( dev->i2cHandle, LIS3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, length, HAL_MAX_DELAY);
 
 }
 
 HAL_StatusTypeDef LIS3MDL_WriteRegister(LIS3MDL *dev, uint8_t reg, uint8_t *data){
 
-	return HAL_I2C_Mem_Write( dev->i2cHandle, LISM3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
+	return HAL_I2C_Mem_Write( dev->i2cHandle, LIS3MDL_I2C_ADDR, reg, I2C_MEMADD_SIZE_8BIT, data, 1, HAL_MAX_DELAY);
 
 }
 
