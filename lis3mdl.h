@@ -20,7 +20,7 @@
 /*
  * DEFINES
  */
-#define LISM3MDL_I2C_ADDR		(0x1C << 1) /* SAD = 0 -> 0x38 = (0x1C << 1), SAD = 1 -> 0x3C  = (0x1E << 1) (p. 17)*/
+#define LIS3MDL_I2C_ADDR		(0x1C << 1) /* SAD = 0 -> 0x38 = (0x1C << 1), SAD = 1 -> 0x3C  = (0x1E << 1) (p. 17)*/
 
 #define WHO_AM_I				0x0F
 #define LIS3MDL_DEVICE_ID		0x3D
