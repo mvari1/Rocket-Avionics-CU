@@ -1,5 +1,3 @@
-# Team-2-2023
-
 # Rocket Club Sensor Integration Project
 
 ## Introduction
