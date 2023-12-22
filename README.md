@@ -23,7 +23,7 @@ This repository contains the driver and related code for the MPL3115A2 sensor. T
 
 This repository contains the driver and related code for the LSMDSOX sensor. The driver allows the microcontroller to interface with the sensor, read accelerometer amd gyroscope data, and configure its settings.
 
-### SD Card Driver
+### SD Card Reader Driver
 
 This repository contains the driver and related code for the SD Card Reader. The driver allows the microcontroller to interface with the SD Card Reader
 ### Usage
