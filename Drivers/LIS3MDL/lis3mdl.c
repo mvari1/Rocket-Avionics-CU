@@ -63,7 +63,7 @@ uint8_t	LIS3MDL_Initialize(LIS3MDL *dev, I2C_HandleTypeDef *i2cHandle){
  * DATA AQUISITION
  */
 /* Internal temperature sensor that is suitable for delta temperature measurement (pg. 20 of AN4602) */
-HAL_StatusTypeDef LIS3MDL_ReadTemperature_DT(LIS3MDL *dev){
+HAL_StatusTypeDef LIS3MDL_ReadTemperature(LIS3MDL *dev){
 	/*	DATASHEET PAGE 9 */
 
 	/*
