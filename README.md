@@ -6,7 +6,7 @@ This repository is part of the Rocket Club's sub-team project focused on integra
 
 ## Sensor Information
 
-- Sensors: LIS3MDL Magnetometer, MPL3115A2 Altimeter
+- Sensors: LIS3MDL Magnetometer, LSMDSOX Accelerometer, and MPL3115A2 Altimeter
 - Microcontroller: STM32L412KB
 
 ## Project Overview
