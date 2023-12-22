@@ -19,9 +19,9 @@
 /*
  * DEFINES (pg. 19 - 20)
  */
-#define MPL3115A2_I2C_ADDR		(0xC0 )  /*Read (0xC1), Write (0xC0) */
+#define MPL3115A2_I2C_ADDR			(0xC0 )  /*Read (0xC1), Write (0xC0) */
 #define WHO_AM_I				0x0C	
-#define MPL3115A2_DEVICE_ID		0xC4
+#define MPL3115A2_DEVICE_ID			0xC4
 #define PT_DATA_CFG				0x13
 #define SYSMOD					0x11
 
@@ -29,8 +29,8 @@
  * CONTROL REGISTERS 
  */
 #define CTRL_REG1				0x26
-#define PRESSURE_MODE		 	0x39
-#define ALTITUDE_MODE			0xB9
+#define PRESSURE_MODE		 		0x39
+#define ALTITUDE_MODE				0xB9
 #define CTRL_REG2				0x27
 #define CTRL_REG3				0x28
 #define CTRL_REG4				0x29
@@ -53,11 +53,11 @@
 #define OUT_P_LSB				0x03
 #define OUT_T_MSB				0x04
 #define OUT_T_LSB				0x05
-#define OUT_P_DELTA_MSB			0x07
-#define OUT_P_DELTA_CSB			0x08
-#define OUT_P_DELTA_LSB			0x09
-#define OUT_T_DELTA_MSB			0x0A
-#define OUT_T_DELTA_LSB			0x0B
+#define OUT_P_DELTA_MSB				0x07
+#define OUT_P_DELTA_CSB				0x08
+#define OUT_P_DELTA_LSB				0x09
+#define OUT_T_DELTA_MSB				0x0A
+#define OUT_T_DELTA_LSB				0x0B
 
 
 
