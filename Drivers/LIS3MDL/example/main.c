@@ -117,7 +117,7 @@ int main(void)
 
 		ret = LIS3MDL_ReadMagnetometer(&mag);
 		HAL_Delay(50);
-		ret = LIS3MDL_ReadTemperature_DT(&mag);
+		ret = LIS3MDL_ReadTemperature(&mag);
 
 
 		if( ret != HAL_OK){
