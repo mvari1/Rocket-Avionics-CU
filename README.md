@@ -19,9 +19,16 @@ This repository contains the driver and related code for the LIS3MDL sensor. The
 
 This repository contains the driver and related code for the MPL3115A2 sensor. The driver allows the microcontroller to interface with the sensor, read altimeter data, and configure its settings.
 
+### LSMDSOX Driver
+
+This repository contains the driver and related code for the LSMDSOX sensor. The driver allows the microcontroller to interface with the sensor, read accelerometer amd gyroscope data, and configure its settings.
+
+### SD Card Driver
+
+This repository contains the driver and related code for the SD Card Reader. The driver allows the microcontroller to interface with the SD Card Reader
 ### Usage
 
-- To utilize the LIS3MDL and MPL3115A2 driver, refer to the code within this repository. The driver has been tailored to work with the STM32L412KB microcontroller.
+- To utilize the LIS3MDL, LSMDSOX, and MPL3115A2 driver, refer to the code within this repository. The driver has been tailored to work with the STM32L412KB microcontroller.
 - Ensure that the sensor is properly connected to the microcontroller as per the hardware setup.
 
 ## Getting Started
